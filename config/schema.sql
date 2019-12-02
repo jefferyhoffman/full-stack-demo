@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS fsd_dev;
+CREATE DATABASE fsd_dev;

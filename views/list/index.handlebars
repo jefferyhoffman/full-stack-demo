@@ -1,0 +1,14 @@
+<h1>Grocery List</h1>
+
+<form action="/list" method="POST">
+  <input type="text" name="name" placeholder="Milk">
+  <input type="submit" value="Add">
+</form>
+
+<ul>
+  {{#each items}}
+  <li>{{name}}</li>
+  {{else}}
+  <li>No items. Add one!</li>
+  {{/each}}
+</ul>
